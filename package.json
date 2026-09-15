@@ -1,0 +1,21 @@
+{
+  "name": "eventea_api",
+  "version": "1.0.0",
+  "description": "Building an event booking app",
+  "license": "ISC",
+  "author": "Omah.Codes",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.11.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^8.24.4",
+    "multer": "^2.3.0"
+  }
+}
